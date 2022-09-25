@@ -1,0 +1,152 @@
+   
+        header{
+            text-align: right ;
+            font-family: 'Josefin Sans', sans-serif;
+
+        }
+
+        main{
+            text-align: center;
+        }
+        footer{
+            text-align: center;
+        }
+        a{
+            padding: 30px;
+        }
+        header{
+            background-color: lightgrey;  border-radius: 5px ;
+            
+        }
+        body{
+            background: black url(../imagenes/4877010.jpg); border-radius: 10px;
+        }
+      
+      
+        /* Hoja de estilos*/
+        *{
+            margin: 50; padding: 50;
+            color: black;
+            font-family:'Josefin Sans', sans-serif;
+        }
+        .frmregistro{
+            padding-right: 10px;
+            border: 50px solid rgb(31, 34, 34)8, 8, 8;
+            display: inline-block;
+            border-radius: 10px;
+           
+            
+        }
+    
+        /*google link*/
+        #google:link
+         {color: red}
+         #google:visited
+         {color: blue}
+        #google:hover
+         {color: green}
+         #google:active
+         {color:hotpink}
+
+         p::selection
+            {background-color: salmon;}
+
+        #imagenes{
+            border-radius: 10px;
+        }
+       
+        
+        .tarjeta {
+            width: 400px;
+            border: 1px solid grey;
+            border-radius: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+           }
+
+        .tarjeta p, .tarjeta h2{
+            padding:10px}
+
+        .tarjeta>img{ 
+            width: 100%;
+        }
+        
+        .contenedor{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            row-gap: 20px;
+            gap: 50px
+            
+        }
+
+        .boton{
+            background-color: cadetblue;
+            border-radius: 5px;
+            margin: 10px;
+            text-decoration: none;
+            background-color: aquamarine;
+        }
+        
+        .registro{
+            margin: 10px;
+        }
+
+        .slider-container {
+            width: 95%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .slider-container ul {
+            display: flex;
+            padding: 0;
+            width: 600%;
+
+            animation: cambio 20s infinite alternate;
+
+        }
+       .slider-container li {
+        width: 100%;
+        list-style: none;
+       } 
+       .slider-container img {
+        width: 70%;
+       }
+
+       @keyframes cambio {
+        0% { margin-left: 0; }
+        12% { margin-left: 0; }
+
+        18% { margin-left: -100%; }                  
+        30% { margin-left: -100%; }
+
+        36% { margin-left: -200%; }
+        48% { margin-left: -200%; }
+
+        54% { margin-left: -300%;}
+        66% { margin-left: -300%;}
+
+        72% { margin-left: -400%;}
+        84% { margin-left: -400%;}
+
+        90% { margin-left: -500%;}
+        100% { margin-left: -500%;}
+
+       }
+       
+      
+
+
+
+    
+
+
+   
+        
+
+            
+         
+       
+      
+       
