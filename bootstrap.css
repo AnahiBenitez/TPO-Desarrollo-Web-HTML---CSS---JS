@@ -1,0 +1,17 @@
+body{
+    
+}
+.Secciones{
+ display: flex;
+
+
+}
+.Formulario{
+width: 500px;
+margin: auto;
+}
+button{
+    position: absolute;
+    left: 405px;
+    
+}
