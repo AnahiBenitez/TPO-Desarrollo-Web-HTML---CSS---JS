@@ -1,9 +1,5 @@
-body{
-    
-}
 .Secciones{
  display: flex;
-
 
 }
 .Formulario{
@@ -12,6 +8,10 @@ margin: auto;
 }
 button{
     position: absolute;
-    left: 405px;
+    left: 570px;
+    
+}
+label{
+    color: rgb(19, 102, 129);
     
 }
