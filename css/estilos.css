@@ -16,7 +16,7 @@
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5))
-        ,url(/TPO-Desarrollo-Web-HTML---CSS---JS/imagenes/hero.jpg);
+        ,url(/imagenes/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -230,10 +230,11 @@ main h2{
        .slider-container li {
            width: 100%;
            list-style: none;
+           
        }
 
        .slider-container img {
-           width: 50%;
+           width: 400px;
        }
 
        button{
