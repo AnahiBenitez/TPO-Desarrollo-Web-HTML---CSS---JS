@@ -308,10 +308,23 @@ background-color: rgba(4, 39, 238, 0.973) ;
 
        }
 
-       @media (min-width: 720px){
-    header 
-       .index{
-            flex-direction: row;
+       @media (min-width: 526px){
+
+        header nav {
+            flex-direction: column;
+            padding-bottom: 0;
+            padding-right: 10px;
+           }
+
+        header{
+            background-color: rgb(19, 102, 129, .6);
+        }
+         }
+        @media screen and (min-width: 720px){
+            
+         header 
+            .index{
+            flex-direction: column;
             justify-content: space-between;
        }
 
@@ -319,4 +332,24 @@ background-color: rgba(4, 39, 238, 0.973) ;
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 10px;
-       }}
+       }
+       header{
+        background-color: rgb(19, 102, 129, .8);
+    }
+    }
+
+       @media (min-width: 1024px){
+       header 
+       .index{
+       flex-direction: row;
+       justify-content: space-between;
+        }
+     
+            header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 10px;
+            }
+          header{
+                background-color: rgb(19, 102, 129);
+            }}
