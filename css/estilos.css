@@ -23,6 +23,7 @@
    }
    #hero h1{
     color: rgb(255, 255, 255);
+    text-decoration: none;
 
    }
 
@@ -109,24 +110,8 @@ main h2{
 .final{
     color: rgb(114, 124, 131);
 }
-.aside{
 
-    display: inline-block;
-    width: 350px;
-    background-color: rgb(19, 102, 129);
-    margin-left: 10px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-style: double;
-    border-radius: 5px;
-    padding: 10px;
-    
-   }
-   .aside h2{
-    color:rgb(0, 0, 0);
-    text-shadow: 1px 1px 4px white;
 
-   }
 
    /* Hoja de estilos*/
    * {
@@ -137,7 +122,7 @@ main h2{
        box-sizing: border-box;
    }
    #quienessomos{
-    width: 70%;
+    width: 65%;
     display: inline-block;
    }
 
@@ -226,9 +211,25 @@ main h2{
            row-gap: 20px;
            gap: 50px
        }
-       .container{
-        width: 70%;
+       aside{
+        float: right;
+        width: 25%;
+        background-color: rgb(19, 102, 129);
+        margin: 10px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-style: double;
+        border-radius: 5px;
+        padding: 10px;
+        
        }
+       aside h2{
+        color:rgb(0, 0, 0);
+        text-shadow: 1px 1px 4px white;
+    
+       }    
+
+      
 
        .boton {
            background-color: cadetblue;
@@ -308,7 +309,7 @@ background-color: rgba(4, 39, 238, 0.973) ;
 
        }
 
-       @media (min-width: 526px){
+       @media screen and (min-width: 480px) and (max-width: 719px) {
 
         header nav {
             flex-direction: column;
@@ -319,8 +320,15 @@ background-color: rgba(4, 39, 238, 0.973) ;
         header{
             background-color: rgb(19, 102, 129, .6);
         }
+            #quienessomos {
+                width: 80%;
+            }
+            aside { 
+                width: 80%; 
+            }
+    
          }
-        @media screen and (min-width: 720px){
+        @media screen and (min-width: 720px) and (max-width: 1024px){
             
          header 
             .index{
@@ -335,10 +343,16 @@ background-color: rgba(4, 39, 238, 0.973) ;
        }
        header{
         background-color: rgb(19, 102, 129, .8);
+    } 
+    #quienessomos{
+        width: 100%;
     }
+    aside {
+         width: 70%;
+         }
     }
 
-       @media (min-width: 1024px){
+       @media screen and (min-width: 1024px){
        header 
        .index{
        flex-direction: row;
@@ -352,4 +366,10 @@ background-color: rgba(4, 39, 238, 0.973) ;
             }
           header{
                 background-color: rgb(19, 102, 129);
-            }}
+            }
+        
+          
+        
+        }
+
+        
