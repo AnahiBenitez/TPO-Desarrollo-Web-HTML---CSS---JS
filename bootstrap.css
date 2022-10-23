@@ -4,10 +4,10 @@
 width: 500px;
 margin: auto;
 }
-button{
+.button{
     position: absolute;
     left: 450px;
-    bottom: 20px;
+   
 }
 label{
     color: rgb(19, 102, 129);
