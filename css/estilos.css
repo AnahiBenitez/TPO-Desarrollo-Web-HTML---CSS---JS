@@ -4,56 +4,63 @@
        background-color: rgb(19, 102, 129);
        border-radius: 5px;
    }
-   #hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image:linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5))
-        ,url(/imagenes/trabajo-equipo-entrenador.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+
+   #hero {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       flex-direction: column;
+       height: 90vh;
+       color: white;
+       background-image: linear-gradient(0deg,
+               rgba(0, 0, 0, 0.5),
+               rgba(0, 0, 0, 0.5)), url(/imagenes/trabajo-equipo-entrenador.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
    }
-   #hero h1{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+
+   #hero h1 {
+       color: rgb(255, 255, 255);
+       text-decoration: none;
 
    }
 
    main {
        text-align: center;
-       
-       
+
+
    }
-   main h1{
-    color: aliceblue;
+
+   main h1 {
+       color: aliceblue;
    }
-   main p{
-    color: aliceblue;
+
+   main p {
+       color: aliceblue;
    }
-   .bb{
-    color: aqua;
+
+   .bb {
+       color: aqua;
    }
-   .dire1{
-    color: rgb(255, 255, 255);
+
+   .dire1 {
+       color: rgb(255, 255, 255);
    }
-   .dire{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+
+   .dire {
+       text-decoration: none;
+       color: rgb(255, 255, 255);
    }
-   .dire:hover{
-    color: blue;
+
+   .dire:hover {
+       color: blue;
    }
-main h2{
-    color: aliceblue;
-}
+
+   main h2 {
+       color: aliceblue;
+   }
 
    footer {
        text-align: center;
@@ -63,53 +70,57 @@ main h2{
    a {
        padding: 30px;
    }
-   header a{
-    text-decoration: none;
-    padding: 5px 12px;
-    font-weight: bold;
-    color: rgb(252, 250, 250);
+
+   header a {
+       text-decoration: none;
+       padding: 5px 12px;
+       font-weight: bold;
+       color: rgb(252, 250, 250);
 
    }
-   header a:hover{
-    color: blue;
+
+   header a:hover {
+       color: blue;
    }
 
    .index {
        max-width: 1400px;
        margin: auto;
-        }
+   }
 
-        header .logo{
-            margin: 0;
-            padding: 25px 30px;
-            font-weight: bold;
-            color: rgb(253, 252, 252);
-            font-size: 1.4em;
+   header .logo {
+       margin: 0;
+       padding: 25px 30px;
+       font-weight: bold;
+       color: rgb(253, 252, 252);
+       font-size: 1.4em;
 
 
-        }
-     header .index{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-     }   
+   }
 
-     header nav{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 25px;
-    
-     }
+   header .index {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+
+   }
+
+   header nav {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       padding-bottom: 25px;
+
+   }
 
    body {
-       background: rgb(0, 0, 0) ;
+       background: rgb(0, 0, 0);
        border-radius: 10px;
    }
-.final{
-    color: rgb(114, 124, 131);
-}
+
+   .final {
+       color: rgb(114, 124, 131);
+   }
 
 
 
@@ -121,22 +132,24 @@ main h2{
        font-family: 'Josefin Sans', sans-serif;
        box-sizing: border-box;
    }
-   #quienessomos{
-    width: 65%;
-    display: inline-block;
+
+   #quienessomos {
+       width: 65%;
+       display: inline-block;
    }
 
    .historia {
        font-size: 20px;
        margin-top: 100px;
 
-       
-   }
-   h1{
-    text-decoration: underline;
+
    }
 
-  
+   h1 {
+       text-decoration: underline;
+   }
+
+
 
 
    .frmregistro {
@@ -144,11 +157,11 @@ main h2{
        border: 50px solid rgb(31, 34, 34)8, 8, 8;
        display: inline-block;
        border-radius: 10px;
-    
+
 
    }
 
-   
+
 
    /*google link*/
    #google:link {
@@ -172,204 +185,277 @@ main h2{
    }
 
 
-       #imagenes {
-           border-radius: 10px;
+   #imagenes {
+       border-radius: 10px;
+   }
+
+
+   .tarjeta {
+       width: 400px;
+       border: 1px solid grey;
+       border-radius: 10px;
+       overflow: hidden;
+       padding-bottom: 10px;
+       text-align: center;
+       background-color: rgb(21, 122, 122);
+       margin-top: 100px;
+       margin-bottom: -50px;
+       box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
+       cursor: default;
+       transition: all 400ms ease;
+   }
+
+   .tarjeta:hover {
+       box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+       transform: translate(-3%);
+   }
+
+   .tarjeta p,
+   .tarjeta h2 {
+       padding: 10px
+   }
+
+   .tarjeta>img {
+       width: 100%;
+   }
+
+   .contenedor {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+       row-gap: 20px;
+       gap: 50px
+   }
+
+   aside {
+       float: right;
+       width: 25%;
+       background-color: rgb(19, 102, 129);
+       margin: 10px;
+       margin-top: 100px;
+       margin-bottom: 100px;
+       border-style: double;
+       border-radius: 5px;
+       padding: 10px;
+
+   }
+
+   aside h2 {
+       color: rgb(0, 0, 0);
+       text-shadow: 1px 1px 4px white;
+
+   }
+
+
+
+   .boton {
+       background-color: cadetblue;
+       border-radius: 5px;
+       margin: 10px;
+       text-decoration: none;
+       background-color: aquamarine;
+
+   }
+
+   .btn {
+       margin-top: 50px;
+       margin-left: 120px;
+   }
+
+   .registro {
+       margin: 10px;
+   }
+
+   .slider-container {
+       width: 100%;
+       margin: auto;
+       overflow: hidden;
+       margin-top: 50px;
+   }
+
+   .slider-container ul {
+       display: flex;
+       padding: 0;
+       width: 600%;
+       animation: cambio 20s infinite alternate;
+
+   }
+
+   .slider-container li {
+       width: 100%;
+       list-style: none;
+
+   }
+
+   .slider-container img {
+       width: 400px;
+   }
+
+   button {
+       font-size: 1em;
+       font-weight: bold;
+       padding: 15px 20px;
+       border-radius: 10px;
+       border: 2px solid rgba(0, 0, 0, 0.836);
+       box-shadow: 5px 5px 10px rgb(0, 0, 0);
+       color: white;
+       background-color: rgba(86, 0, 245, 0.842);
+   }
+
+   button:hover {
+       background-color: rgba(4, 39, 238, 0.973);
+
+   }
+
+   @keyframes cambio {
+       0% {
+           margin-left: 0;
        }
 
-
-       .tarjeta {
-        width: 400px;
-        border: 1px solid grey;
-        border-radius: 10px;
-        overflow: hidden;
-        padding-bottom: 10px;
-        text-align: center;
-        background-color: rgb(21, 122, 122);
-        margin-top: 100px;
-        margin-bottom: -50px;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-        cursor: default;
-        transition: all 400ms ease;
-        }
-        .tarjeta:hover{
-            box-shadow: 5px 5px 20px rgba(0, 0, 0 , 4);
-            transform: translate(-3%);
-        }
-        .tarjeta p,.tarjeta h2 {
-           padding: 10px
+       12% {
+           margin-left: 0;
        }
 
-       .tarjeta>img {
-           width: 100%;
+       18% {
+           margin-left: -100%;
        }
 
-       .contenedor {
-           display: flex;
-           flex-direction: row;
-           flex-wrap: wrap;
-           justify-content: center;
-           row-gap: 20px;
-           gap: 50px
-       }
-       aside{
-        float: right;
-        width: 25%;
-        background-color: rgb(19, 102, 129);
-        margin: 10px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        border-style: double;
-        border-radius: 5px;
-        padding: 10px;
-        
-       }
-       aside h2{
-        color:rgb(0, 0, 0);
-        text-shadow: 1px 1px 4px white;
-    
-       }    
-
-      
-
-       .boton {
-           background-color: cadetblue;
-           border-radius: 5px;
-           margin: 10px;
-           text-decoration: none;
-           background-color: aquamarine;
-           
-       }
-       .btn{
-        margin-top: 50px;
-        margin-left: 120px;
+       30% {
+           margin-left: -100%;
        }
 
-       .registro {
-           margin: 10px;
+       36% {
+           margin-left: -200%;
        }
 
-       .slider-container {
-           width: 100%;
-           margin: auto;
-           overflow: hidden;
-           margin-top: 50px;
+       48% {
+           margin-left: -200%;
        }
 
-       .slider-container ul {
-           display: flex;
-           padding: 0;
-           width: 600%;
-           animation: cambio 20s infinite alternate;
-
+       54% {
+           margin-left: -300%;
        }
 
-       .slider-container li {
-           width: 100%;
-           list-style: none;
-           
+       66% {
+           margin-left: -300%;
        }
 
-       .slider-container img {
-           width: 400px;
+       72% {
+           margin-left: -400%;
        }
 
-       button{
-        font-size: 1em;
-        font-weight: bold;
-        padding: 15px 20px;
-        border-radius: 10px;
-        border: 2px solid rgba(0, 0, 0, 0.836);
-        box-shadow: 5px 5px 10px rgb(0, 0, 0);
-        color: white;
-        background-color: rgba(86, 0, 245, 0.842);
-       }
-button:hover{
-background-color: rgba(4, 39, 238, 0.973) ;
-
-}
-      
-       @keyframes cambio {
-        0% { margin-left: 0; }
-        12% { margin-left: 0; }
-
-        18% { margin-left: -100%; }                  
-        30% { margin-left: -100%; }
-
-        36% { margin-left: -200%; }
-        48% { margin-left: -200%; }
-
-        54% { margin-left: -300%;}
-        66% { margin-left: -300%;}
-
-        72% { margin-left: -400%;}
-        84% { margin-left: -400%;}
-
-        90% { margin-left: -500%;}
-        100% { margin-left: -500%;}
-
+       84% {
+           margin-left: -400%;
        }
 
-       @media screen and (max-width: 719px) {
+       90% {
+           margin-left: -500%;
+       }
 
-        header nav {
-            flex-direction: column;
-            padding-bottom: 0;
-            padding-right: 10px;
-           }
+       100% {
+           margin-left: -500%;
+       }
 
-        header{
-            background-color: rgb(19, 102, 129, .6);
-        }
-            #quienessomos {
-                width: 80%;
-            }
-            aside { 
-                width: 80%; 
-            }
-    
-         }
-        @media screen and (min-width: 720px) and (max-width: 1024px){
-            
-         header 
-            .index{
-            flex-direction: column;
-            justify-content: space-between;
+   }
+
+   @media screen and (max-width: 719px) {
+
+       header nav {
+           flex-direction: column;
+           padding-bottom: 0;
+           padding-right: 10px;
+       }
+
+       header {
+           background-color: rgb(19, 102, 129, .6);
+       }
+
+       #quienessomos {
+           width: 80%;
+       }
+
+       aside {
+           width: 80%;
+       }
+       #boton-sumate{
+        position: absolute;
+        left: 100px !important;
+       }
+       
+       
+
+
+   }
+
+   @media screen and (min-width: 720px) and (max-width: 1024px) {
+
+       header .index {
+           flex-direction: column;
+           justify-content: space-between;
        }
 
        header nav {
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 10px;
+           flex-direction: row;
+           padding-bottom: 0;
+           padding-right: 10px;
        }
-       header{
-        background-color: rgb(19, 102, 129, .8);
-    } 
-    #quienessomos{
-        width: 100%;
-    }
-    aside {
-         width: 70%;
-         }
-    }
 
-       @media screen and (min-width: 1024px){
-       header 
-       .index{
-       flex-direction: row;
-       justify-content: space-between;
-        }
-     
-            header nav {
+       header {
+           background-color: rgb(19, 102, 129, .8);
+       }
+
+       #quienessomos {
+           width: 100%;
+       }
+
+       aside {
+           width: 70%;
+       }
+   }
+
+   @media screen and (min-width: 1024px) {
+       header .index {
+           flex-direction: row;
+           justify-content: space-between;
+       }
+
+       header nav {
+           flex-direction: row;
+           padding-bottom: 0;
+           padding-right: 10px;
+       }
+
+       header {
+           background-color: rgb(19, 102, 129);
+       }
+
+
+
+   }
+
+    /*API*/
+
+    #app {
+        display: flex;
         flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 10px;
-            }
-          header{
-                background-color: rgb(19, 102, 129);
-            }
-        
-          
-        
-        }
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+        gap: 50px;
+     
+    }
+    main h1{
+        text-decoration: none;
+    }
 
-        
+    #app div{
+     color:white;
+    }
+ 
+    #imagenes-tienda {
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+ 
+    }

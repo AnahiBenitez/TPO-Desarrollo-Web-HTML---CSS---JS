@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenando Codo a Codo</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="index">
+            <a href="index.html">
+                <h2 class="logo">Entrenando Codo a Codo</h2>
+            </a>
+            <nav>
+                <a href="quienessomos.html">Quienes Somos</a>
+                <a href="disciplinas.html">Disciplinas</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="sumate.html">Sumate!</a>
+
+            </nav>
+        </div>
+
+    </header>
+
+    <!--API-->
+    <main>
+        <br>
+
+        <h1>Productos mas vendidos</h1>
+
+        <br>
+           
+        <div class="contenedor">
+            
+                <div id="app">
+
+                    <div v-for="producto of productos">
+
+                <div><img id="imagenes-tienda" :src="producto.logo"></div>
+
+                <h2>{{producto.producto}}</h2>
+                <div>Marca: {{producto.marca}}</div>
+                <div>Precio: {{producto.precio}}</div>
+                <div>ID del producto: {{producto.id}}</div>
+                <br>
+                
+                   <button>Comprar</button>
+                <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+    </main>
+    <br><br><br><br><br>
+
+    <footer>
+        <p class="final"> &copy; Codo a Codo - Camila Lopez, Anahi Benitez, Yanina Castillo </p>
+        <br>
+        <nav>
+            <a href="https://facebook.com" target="_blank"> <img width="50px" src="./imagenes/facebook.png"
+                    alt="facebook"></a>
+            <a href="https://api.whatsapp.com/send?phone=0543874564252" target="_blank"> <img
+                    src="./imagenes/whatsapp.png" alt="whatsapp" width="50px"></a>
+            <a href="https://www.instagram.com" target="_blank"> <img src="./imagenes/instagram.png" alt="Instagram"
+                    width="50px"> </a>
+        </nav>
+
+    </footer>
+    <!--Vue-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!--Javascript-->
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>

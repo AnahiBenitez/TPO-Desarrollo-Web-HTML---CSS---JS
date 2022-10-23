@@ -1,15 +1,13 @@
-.Secciones{
- display: flex;
+/*Formulario*/
 
-}
 .Formulario{
 width: 500px;
 margin: auto;
 }
 button{
     position: absolute;
-    left: 570px;
-    
+    left: 450px;
+    bottom: 20px;
 }
 label{
     color: rgb(19, 102, 129);

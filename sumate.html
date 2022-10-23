@@ -13,10 +13,10 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-     </script>
-     <link rel="stylesheet" href="/css/estilos.css">
-     <!--CSS-->
-    
+        </script>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <!--CSS-->
+
 </head>
 
 <body>
@@ -29,13 +29,14 @@
             <nav>
                 <a href="quienessomos.html">Quienes Somos</a>
                 <a href="disciplinas.html">Disciplinas</a>
+                <a href="tienda.html">Tienda</a>
                 <a href="sumate.html">Sumate!</a>
             </nav>
         </div>
     </header>
 
-<br>
-<br>
+    <br>
+    <br>
 
     <main>
         <div class="Formulario">
@@ -59,23 +60,25 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Envie su consulta</label>
                     <textarea class="form-control" id="consulta" rows="3"></textarea>
                 </div>
-                </div>
+             </div>
 
-        <div class="col-12">
-            <button type="Enviar" class="btn btn-primary">Enviar</button>
-        </div>
-        </form>
-        </div>
+                <div class="col-12" id="boton-sumate">
+                 <button type="Enviar" class="btn btn-primary">Enviar</button>
+            </div>
+            </form>
+            </div>
 
-        <br>
-        <br>
-        <br>
-        <div id="error"></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="error"></div>
+            <div id="enviado"></div>
 
     </main>
 
     <footer>
-        <p  class="final"> &copy; Codo a Codo - Camila Lopez, Anahi Benitez, Yanina Castillo </p>
+        <p class="final"> &copy; Codo a Codo - Camila Lopez, Anahi Benitez, Yanina Castillo </p>
         <br>
         <nav>
             <a href="https://facebook.com" target="_blank"> <img width="50px" src="./imagenes/facebook.png"
@@ -87,8 +90,9 @@
         </nav>
     </footer>
 
-<!--Javascript-->
-<script src="/js/main.js"></script>
+    <!--Javascript-->
+    <script src="/js/sumate.js"></script>
 
 </body>
+
 </html>
